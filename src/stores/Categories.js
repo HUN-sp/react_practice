@@ -1,6 +1,6 @@
 export function loadCategories() {
     return (dispatch) => {
-        fetch("https://run.mocky.io/v3/dc25e1aa-3ae4-4c41-8626-b2529c231bcd").then(
+        fetch("https://run.mocky.io/v3/08e5f669-a16f-4b48-83f7-03430b81c3d4").then(
             (res) => {
                 return res.json();
             }
